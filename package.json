@@ -1,0 +1,65 @@
+{
+  "name": "thevault",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cloudscape-design/collection-hooks": "^1.0.23",
+    "@cloudscape-design/components": "^3.0.334",
+    "@cloudscape-design/global-styles": "^1.0.11",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "babel-jest": "^29.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+    },
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/?!(react-icons)"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
+    "@cloudscape-design/jest-preset": "^2.0.17",
+    "@types/jest": "^29.5.2",
+    "babel-jest": "^29.6.1",
+    "miragejs": "^0.1.47",
+    "ts-jest": "^29.1.1"
+  }
+}
